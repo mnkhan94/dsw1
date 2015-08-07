@@ -1,0 +1,3 @@
+Repository: https://github.com/mnkhan94/dsw1/tree/gh-pages
+
+Live site: http://mnkhan94.github.io/dsw1/
