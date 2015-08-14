@@ -1,0 +1,120 @@
+/* General Structure */
+
+body {
+	background-color: #2ecc71;
+}
+
+#box {
+	background-color: #ecf0f1;
+	width: 1050px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 30px;
+	border-radius: 15px;
+	box-shadow: 0px 0px 20px 10px  #888888;
+
+}
+
+/* Navigation Bar */
+
+nav {
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: rgba(46, 204, 113, 0.7);
+    box-shadow: 0px 0px 15px 5px  #888888;
+}
+
+/* Links */
+
+a {
+	color: #ea6153;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #3498db;
+}
+
+a:active {
+	color: #3498db;
+}
+
+a:visited {
+	color: #8e44ad;
+}
+
+/* Headings */
+
+h1 {
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-size: 90px;
+	color: #34495e;
+	text-shadow: 1px 6px #2ecc71;
+	font-style: normal;
+}
+
+h2 {
+	font-family: 'Montserrat', sans-serif;	
+	font-weight: 700;
+	text-shadow: 1px 3px #2ecc71;
+	font-style: normal;
+
+}
+
+h3, h4 {
+	font-family: 'Poiret One', cursive;
+	text-shadow: 1px 0.5px #2ecc71;
+	font-style: normal;
+}
+
+/* Paragraph/General Text */
+
+p {
+	font-family: 'Gentium Book Basic', serif;
+	font-size: 14px;
+	text-indent: 50px;
+	line-height: 150%;
+}
+
+/* List Items */
+
+ul {
+	list-style-type: square;
+}
+
+ul li {
+	font-family: 'Gentium Book Basic', serif;
+	font-size: 14px;
+	line-height: 150%;
+}
+
+/* Table of Contents */
+
+#toc {
+	display: inline-block;
+	background-color: rgba(46, 204, 113, 0.6);
+	padding: 10px;
+	border-radius: 15px;
+	box-shadow: 0px 0px 15px 5px  #888888;
+}
+
+/* Images */
+
+img {
+	border-radius: 15px;
+    box-shadow: 0px 0px 15px 5px #27ae60;
+}
+
+figure {
+	display: inline-block;
+	width: 200px;
+	text-align: center;
+}
+
+figure figcaption {
+	padding-left: 50px;
+}
