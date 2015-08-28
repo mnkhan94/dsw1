@@ -8,6 +8,8 @@
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<link href='http://fonts.googleapis.com/css?family=Oswald%7CLora%7CMontserrat:400,700%7CPoiret+One%7CGentium+Book+Basic' rel='stylesheet' type='text/css'>
 		<title>Assignment 1</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script src="js/jquery.sticky-kit.js"></script>
 	</head>
 
 <!-- End: General HTML Structure -->
@@ -34,6 +36,67 @@
 			</header>
 
 <!-- End Navigation Bar -->
+
+<!-- Table -->
+		
+			<h2 style="font-size: 30px; text-align: center;">Breaking News!</h2>
+			<h2 style="font-size: 30px; text-align: center;">UEFA Champion's League 15/16 Draw Announced:</h2>
+
+			<table>
+			  <tr>
+			    <th scope="col">Group A</th>
+			    <th scope="col">Group B</th>		
+			    <th scope="col">Group C</th>
+			    <th scope="col">Group D</th>
+			    <th scope="col">Group E</th>
+			    <th scope="col">Group F</th>
+			    <th scope="col">Group G</th>
+				<th scope="col">Group H</th>
+
+			  </tr>
+			  <tr>
+			    <td>Paris St-Germain</td>
+			    <td>PSV Eindhoven</td>
+			    <td>Benfica</td>
+			    <td>Juventus</td>
+			    <td>Barcelona</td>
+			    <td>Bayern Munich</td>
+			    <td>Chelsea</td>
+			    <td>Zenit St Petersburg</td>
+
+			  </tr>
+			  <tr>
+			    <td>Real Madrid</td>
+			    <td>Manchester United</td>
+			    <td>Atletico Madrid</td>
+			    <td>Manchester City</td>
+			    <td>Bayer Leverkusen</td>
+			    <td>Arsenal</td>
+			    <td>Porto</td>
+			    <td>Valencia</td>
+			  </tr>
+			  <tr>
+			    <td>Shakhtar Donetsk</td>
+			    <td>CSKA Moscow</td>
+			    <td>Galatasaray</td>
+			    <td>Sevilla</td>
+			    <td>AS Roma</td>
+			    <td>Olympiakos</td>
+			    <td>Dynamo Kiev</td>
+			    <td>Olympique Lyon</td>
+			  </tr>
+			    <tr>
+			    <td>Malmo</td>
+			    <td>VfL Wolfsburg</td>
+			    <td>Astana</td>
+			    <td>Borussia Monchengladbach</td>
+			    <td>BATE Borisov</td>
+			    <td>Dinamo Zagreb</td>
+			    <td>Maccabi Tel-Aviv</td>
+			    <td>Gent</td>
+			</table>
+
+<!-- End -->
 
 <!-- Intro -->
 		<div id="content">
@@ -221,6 +284,36 @@
 
 		</div>
 
+		<div id="contact">
+
+<!-- Form -->
+
+				<div id="form">
+
+					<h2>Send An E-mail:</h3=2>
+
+					<form action="MAILTO:mnkhan@fullsail.edu" method="post" enctype="text/plain">
+					<label for="name">Name:</label>
+					<input type="text" name="name" id="name" placeholder="your name" required><br>
+					<label for="mail">Email:</label>
+					<input type="email" name="mail" id="mail" placeholder="your email" required><br>
+					<label for="fan">What sort of fan are you?</label>
+					<select name="fan" id="fan">
+					    <option value="1">Never did, but want to start!</option>
+					    <option value="2">Only watch the world cup!</option>
+					    <option value="3">Been watching for more than 5+ years!</option>
+					</select>
+					<label for="comment">Comment:</label>
+					<textarea name="comment" id="comment "placeholder="your comment" required></textarea><br><br>
+					<input type="submit" value="Send">
+					<input type="reset" value="Reset">
+					</form>
+
+				</div>
+
+		</div>
+
+<!-- Form End -->
 		
 		<div id="footer">
 
@@ -242,6 +335,17 @@
 	</div>
 
 <!-- Conclusion -->
+
+<!-- Javascript for stickyness -->
+
+<script>
+  $(document).ready(function(){
+    $("#contact").stick_in_parent();
+  });
+</script>
+
+<!-- JS End -->
+
 
 	</body>
 
